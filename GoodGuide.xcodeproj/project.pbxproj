@@ -17,6 +17,8 @@
 		44E5E1E1285905880066D8B2 /* GoodGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5E1E0285905880066D8B2 /* GoodGuideTests.swift */; };
 		44E5E1EB285905880066D8B2 /* GoodGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5E1EA285905880066D8B2 /* GoodGuideUITests.swift */; };
 		44E5E1ED285905880066D8B2 /* GoodGuideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5E1EC285905880066D8B2 /* GoodGuideUITestsLaunchTests.swift */; };
+		44E5E1FA28590E700066D8B2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5E1F928590E700066D8B2 /* SecondViewController.swift */; };
+		44E5E1FC28590E930066D8B2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5E1FB28590E930066D8B2 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		44E5E1E6285905880066D8B2 /* GoodGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E5E1EA285905880066D8B2 /* GoodGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodGuideUITests.swift; sourceTree = "<group>"; };
 		44E5E1EC285905880066D8B2 /* GoodGuideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodGuideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44E5E1F928590E700066D8B2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		44E5E1FB28590E930066D8B2 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				44E5E1D4285905880066D8B2 /* LaunchScreen.storyboard */,
 				44E5E1D7285905880066D8B2 /* Info.plist */,
 				44E5E1CF285905860066D8B2 /* GoodGuide.xcdatamodeld */,
+				44E5E1F928590E700066D8B2 /* SecondViewController.swift */,
+				44E5E1FB28590E930066D8B2 /* ThirdViewController.swift */,
 			);
 			path = GoodGuide;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 				44E5E1CB285905860066D8B2 /* ViewController.swift in Sources */,
 				44E5E1D1285905860066D8B2 /* GoodGuide.xcdatamodeld in Sources */,
 				44E5E1C7285905860066D8B2 /* AppDelegate.swift in Sources */,
+				44E5E1FA28590E700066D8B2 /* SecondViewController.swift in Sources */,
+				44E5E1FC28590E930066D8B2 /* ThirdViewController.swift in Sources */,
 				44E5E1C9285905860066D8B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
