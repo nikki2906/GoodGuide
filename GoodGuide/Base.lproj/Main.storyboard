@@ -20,7 +20,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-14 at 2.38.22 PM" translatesAutoresizingMaskIntoConstraints="NO" id="g2l-6T-VoS">
-                                <rect key="frame" x="101" y="623" width="208" height="125"/>
+                                <rect key="frame" x="101" y="608" width="208" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-14 at 2.38.10 PM" translatesAutoresizingMaskIntoConstraints="NO" id="cZA-Ha-sIt">
@@ -37,7 +37,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mG-jm-Fsx">
-                                <rect key="frame" x="101" y="638" width="208" height="95"/>
+                                <rect key="frame" x="103" y="617" width="208" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
@@ -73,7 +73,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chevron.backward" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="X86-fb-r13">
-                                <rect key="frame" x="0.0" y="12" width="69" height="40"/>
+                                <rect key="frame" x="-7" y="19" width="69" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.087297774851322174" green="0.71496254205703735" blue="0.70983356237411499" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
@@ -94,6 +94,22 @@
                     <view key="view" contentMode="scaleToFill" id="yOL-6N-XAl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chevron.backward" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Fhn-wK-0rK">
+                                <rect key="frame" x="0.0" y="13" width="62" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.087297774851322174" green="0.71496254205703735" blue="0.70983356237411499" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caZ-dw-zwo">
+                                <rect key="frame" x="3" y="12" width="59" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="GO2-il-Bgs"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="1rJ-yb-ZiO"/>
                         <color key="backgroundColor" red="0.98773354291915894" green="0.98456603288650513" blue="0.96496409177780151" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -101,9 +117,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pjf-Ge-ay0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1323" y="84"/>
+            <point key="canvasLocation" x="1321.7391304347827" y="83.705357142857139"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Wub-Gd-0c5"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="31AAB5BC-15E5-4385-9EA7-770ED7394682" width="500" height="500"/>
         <image name="Screen Shot 2022-06-14 at 2.38.10 PM" width="308" height="152"/>
