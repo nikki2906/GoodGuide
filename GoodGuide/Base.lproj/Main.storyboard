@@ -97,7 +97,7 @@
                                         </fragment>
                                         <fragment content="🙌">
                                             <attributes>
-                                                <font key="NSFont" size="27" name=".AppleColorEmojiUI"/>
+                                                <font key="NSFont" metaFont="system" size="27"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -120,7 +120,7 @@
                                         </fragment>
                                         <fragment content="🌳">
                                             <attributes>
-                                                <font key="NSFont" size="24" name=".AppleColorEmojiUI"/>
+                                                <font key="NSFont" metaFont="system" size="24"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -141,7 +141,7 @@
                                         </fragment>
                                         <fragment content="📚">
                                             <attributes>
-                                                <font key="NSFont" size="29" name=".AppleColorEmojiUI"/>
+                                                <font key="NSFont" metaFont="system" size="29"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -162,7 +162,7 @@
                                         </fragment>
                                         <fragment content="🦄">
                                             <attributes>
-                                                <font key="NSFont" size="20" name=".AppleColorEmojiUI"/>
+                                                <font key="NSFont" metaFont="system" size="20"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -183,7 +183,7 @@
                                         </fragment>
                                         <fragment content="✊">
                                             <attributes>
-                                                <font key="NSFont" size="19" name=".AppleColorEmojiUI"/>
+                                                <font key="NSFont" metaFont="system" size="19"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -204,7 +204,7 @@
                                         </fragment>
                                         <fragment content="🏳️‍🌈">
                                             <attributes>
-                                                <font key="NSFont" size="24" name=".AppleColorEmojiUI"/>
+                                                <font key="NSFont" metaFont="system" size="24"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -225,7 +225,7 @@
                                         </fragment>
                                         <fragment content="💜">
                                             <attributes>
-                                                <font key="NSFont" size="22" name=".AppleColorEmojiUI"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -246,7 +246,7 @@
                                         </fragment>
                                         <fragment content="🏃‍♀️">
                                             <attributes>
-                                                <font key="NSFont" size="20" name=".AppleColorEmojiUI"/>
+                                                <font key="NSFont" metaFont="system" size="20"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -266,7 +266,7 @@
                                         </fragment>
                                         <fragment content="🍴">
                                             <attributes>
-                                                <font key="NSFont" size="22" name=".AppleColorEmojiUI"/>
+                                                <font key="NSFont" metaFont="system" size="22"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -287,7 +287,7 @@
                                         </fragment>
                                         <fragment content="🚫">
                                             <attributes>
-                                                <font key="NSFont" size="20" name=".AppleColorEmojiUI"/>
+                                                <font key="NSFont" metaFont="system" size="20"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
