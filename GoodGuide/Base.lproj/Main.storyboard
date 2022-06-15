@@ -31,7 +31,7 @@
                                 <rect key="frame" x="103" y="436" width="208" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
                                     <segue destination="uM3-pw-AcX" kind="show" id="kvi-rv-IIu"/>
                                 </connections>
@@ -77,15 +77,251 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.087297774851322174" green="0.71496254205703735" blue="0.70983356237411499" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="CHOOSE A TOPIC AND CLICK TO LEARN MORE!" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LD7-57-hqf">
+                                <rect key="frame" x="10" y="95" width="412" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.32993018629999998" green="0.70175939799999998" blue="0.70588737729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngM-D6-SB8">
+                                <rect key="frame" x="222" y="183" width="172" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Feminisim">
+                                            <attributes>
+                                                <font key="NSFont" size="27" name="GillSans-SemiBold"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="🙌">
+                                            <attributes>
+                                                <font key="NSFont" size="27" name=".AppleColorEmojiUI"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.32993018629999998" green="0.70175939799999998" blue="0.70588737729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.9759351611" green="0.94601243729999995" blue="0.8901875615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9A-qf-2Ym">
+                                <rect key="frame" x="20" y="183" width="184" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.9759351611" green="0.94601243729999995" blue="0.8901875615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                    <backgroundConfiguration key="background"/>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Environment">
+                                            <attributes>
+                                                <font key="NSFont" size="24" name="GillSans-SemiBold"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="🌳">
+                                            <attributes>
+                                                <font key="NSFont" size="24" name=".AppleColorEmojiUI"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.32993018629999998" green="0.70175939799999998" blue="0.70588737729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.9759351611" green="0.94601243729999995" blue="0.8901875615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2a2-TS-RzM">
+                                <rect key="frame" x="20" y="308" width="184" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Education">
+                                            <attributes>
+                                                <font key="NSFont" size="29" name="GillSans-SemiBold"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="📚">
+                                            <attributes>
+                                                <font key="NSFont" size="29" name=".AppleColorEmojiUI"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.32993018629999998" green="0.70175939799999998" blue="0.70588737729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.9759351611" green="0.94601243729999995" blue="0.8901875615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vuY-Qa-6HY">
+                                <rect key="frame" x="222" y="308" width="172" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Animal Rights">
+                                            <attributes>
+                                                <font key="NSFont" size="20" name="GillSans-SemiBold"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="🦄">
+                                            <attributes>
+                                                <font key="NSFont" size="20" name=".AppleColorEmojiUI"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.32993018629999998" green="0.70175939799999998" blue="0.70588737729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.9759351611" green="0.94601243729999995" blue="0.8901875615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xpi-mv-8Rd">
+                                <rect key="frame" x="20" y="410" width="184" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="BLM Movement">
+                                            <attributes>
+                                                <font key="NSFont" size="19" name="GillSans-SemiBold"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="✊">
+                                            <attributes>
+                                                <font key="NSFont" size="19" name=".AppleColorEmojiUI"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.32993018629999998" green="0.70175939799999998" blue="0.70588737729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.9759351611" green="0.94601243729999995" blue="0.8901875615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVV-1V-DHV">
+                                <rect key="frame" x="222" y="410" width="172" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="LGBTQAI+">
+                                            <attributes>
+                                                <font key="NSFont" size="24" name="GillSans-SemiBold"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="🏳️‍🌈">
+                                            <attributes>
+                                                <font key="NSFont" size="24" name=".AppleColorEmojiUI"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.32993018629999998" green="0.70175939799999998" blue="0.70588737729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.9759351611" green="0.94601243729999995" blue="0.8901875615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1x-Hs-3Jy">
+                                <rect key="frame" x="20" y="520" width="184" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="AAPI Support">
+                                            <attributes>
+                                                <font key="NSFont" size="22" name="GillSans-SemiBold"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="💜">
+                                            <attributes>
+                                                <font key="NSFont" size="22" name=".AppleColorEmojiUI"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.32993018629999998" green="0.70175939799999998" blue="0.70588737729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.9759351611" green="0.94601243729999995" blue="0.8901875615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b71-RT-rct">
+                                <rect key="frame" x="222" y="520" width="172" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Human Rights">
+                                            <attributes>
+                                                <font key="NSFont" size="20" name="GillSans-SemiBold"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="🏃‍♀️">
+                                            <attributes>
+                                                <font key="NSFont" size="20" name=".AppleColorEmojiUI"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.32993018629999998" green="0.70175939799999998" blue="0.70588737729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ug0-4e-PYT">
+                                <rect key="frame" x="15" y="622" width="189" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="World Hunger">
+                                            <attributes>
+                                                <font key="NSFont" size="22" name="GillSans-SemiBold"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="🍴">
+                                            <attributes>
+                                                <font key="NSFont" size="22" name=".AppleColorEmojiUI"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.32993018629999998" green="0.70175939799999998" blue="0.70588737729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.9759351611" green="0.94601243729999995" blue="0.8901875615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P71-qf-nQU">
+                                <rect key="frame" x="222" y="622" width="172" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Anti-Violence">
+                                            <attributes>
+                                                <font key="NSFont" size="20" name="GillSans-SemiBold"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="🚫">
+                                            <attributes>
+                                                <font key="NSFont" size="20" name=".AppleColorEmojiUI"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.32993018629999998" green="0.70175939799999998" blue="0.70588737729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.9759351611" green="0.94601243729999995" blue="0.8901875615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tAa-0U-uRX">
+                                <rect key="frame" x="10" y="675" width="388" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="&quot;Service to others leads to greatness&quot; -Jim Robin">
+                                        <attributes>
+                                            <color key="NSColor" red="0.32993018629999998" green="0.70175939799999998" blue="0.70588737729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="18" name="GillSans-SemiBoldItalic"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="31AAB5BC-15E5-4385-9EA7-770ED7394682" translatesAutoresizingMaskIntoConstraints="NO" id="W07-gJ-PoD">
+                                <rect key="frame" x="277" y="746" width="121" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JDy-rY-aHK"/>
-                        <color key="backgroundColor" red="0.98773354291915894" green="0.98456603288650513" blue="0.96496409177780151" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.9880827069" green="0.97667533159999997" blue="0.96470409629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.9759351611" green="0.94601243729999995" blue="0.8901875615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="5Or-i9-uTY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g9k-Ss-PxQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="660.86956521739137" y="83.705357142857139"/>
+            <point key="canvasLocation" x="1369.5652173913045" y="83.705357142857139"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="Q1k-CX-vNh">
@@ -109,6 +345,12 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="GO2-il-Bgs"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="LOG" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gkj-KH-dk4">
+                                <rect key="frame" x="116" y="44" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1rJ-yb-ZiO"/>
                         <color key="backgroundColor" red="0.98773354291915894" green="0.98456603288650513" blue="0.96496409177780151" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -117,7 +359,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pjf-Ge-ay0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1321.7391304347827" y="83.705357142857139"/>
+            <point key="canvasLocation" x="2420" y="1"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
