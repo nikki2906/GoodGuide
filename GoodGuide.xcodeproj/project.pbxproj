@@ -107,8 +107,8 @@
 		44E5E1C5285905860066D8B2 /* GoodGuide */ = {
 			isa = PBXGroup;
 			children = (
-				44E5E1C6285905860066D8B2 /* AppDelegate.swift */,
 				44E5E1C8285905860066D8B2 /* SceneDelegate.swift */,
+				44E5E1C6285905860066D8B2 /* AppDelegate.swift */,
 				44E5E1CA285905860066D8B2 /* ViewController.swift */,
 				44E5E1CC285905860066D8B2 /* Main.storyboard */,
 				44E5E1D2285905880066D8B2 /* Assets.xcassets */,
